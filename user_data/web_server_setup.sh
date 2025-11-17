@@ -1,0 +1,8 @@
+#!/bin/bash
+# minimal example to install nginx and start it
+apt-get update -y
+apt-get install -y nginx
+systemctl enable nginx
+systemctl start nginx
+
+# add any other bootstrap commands here
